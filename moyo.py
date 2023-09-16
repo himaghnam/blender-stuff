@@ -1,4 +1,4 @@
-keyconfig_version = (3, 1, 7)
+keyconfig_version = (3, 6, 11)
 keyconfig_data = \
 [("3D View",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
@@ -322,7 +322,7 @@ keyconfig_data = \
        ],
       },
      ),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("wm.call_menu_pie",
      {"type": 'PERIOD', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -388,7 +388,7 @@ keyconfig_data = \
   {"items":
    [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS'}, None),
     ("transform.translate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("cursor_transform", True),
        ("release_confirm", True),
@@ -402,7 +402,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'BONE_ENVELOPE'),
        ("release_confirm", True),
@@ -416,7 +416,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'BONE_SIZE'),
        ("release_confirm", True),
@@ -439,23 +439,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -475,7 +475,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'BONE_ROLL'),
        ("release_confirm", True),
@@ -511,23 +511,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -547,7 +547,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'CURVE_SHRINKFATTEN'),
        ("release_confirm", True),
@@ -561,7 +561,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.vertex_random",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("offset", 0.0),
        ],
@@ -574,7 +574,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.tilt",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -587,7 +587,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.bend",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -606,7 +606,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'CURVE_SHRINKFATTEN'),
        ("release_confirm", True),
@@ -626,23 +626,23 @@ keyconfig_data = \
  ("3D View Tool: Edit Gpencil, Select Box",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -683,23 +683,23 @@ keyconfig_data = \
  ("3D View Tool: Edit Gpencil, Select Lasso",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.select_lasso", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.select_lasso", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -712,7 +712,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.shear",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -725,7 +725,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.tosphere",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -738,7 +738,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'CLICK'}, None),
-    ("mesh.primitive_cube_add_gizmo", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("mesh.primitive_cube_add_gizmo", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
@@ -746,7 +746,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.bevel",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -758,7 +758,7 @@ keyconfig_data = \
  ("3D View Tool: Edit Mesh, Bisect",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("mesh.bisect", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("mesh.bisect", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
@@ -766,7 +766,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.edge_slide",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -779,7 +779,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.extrude_region_shrink_fatten",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("TRANSFORM_OT_shrink_fatten",
         [("release_confirm", True),
@@ -795,7 +795,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.extrude_faces_move",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("TRANSFORM_OT_shrink_fatten",
         [("release_confirm", True),
@@ -820,23 +820,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -856,7 +856,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.inset",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -932,7 +932,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.push_pull",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -945,7 +945,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.vertex_random",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("offset", 0.0),
        ],
@@ -958,7 +958,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.rip_edge_move",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("TRANSFORM_OT_translate",
         [("release_confirm", True),
@@ -974,7 +974,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.rip_move",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("TRANSFORM_OT_translate",
         [("release_confirm", True),
@@ -996,23 +996,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1025,7 +1025,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.shrink_fatten",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -1038,7 +1038,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.vertices_smooth",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("factor", 0.0),
        ],
@@ -1051,23 +1051,23 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("mesh.spin", {"type": 'MIDDLEMOUSE', "value": 'ANY'}, None),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1086,23 +1086,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1115,7 +1115,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.tosphere",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -1128,7 +1128,7 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.vert_slide",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -1140,7 +1140,7 @@ keyconfig_data = \
  ("3D View Tool: Measure",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.ruler_add", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("view3d.ruler_add", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.ruler_remove", {"type": 'X', "value": 'PRESS', "repeat": True}, None),
     ("view3d.ruler_remove", {"type": 'DEL', "value": 'PRESS', "repeat": True}, None),
     ],
@@ -1156,23 +1156,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1184,38 +1184,38 @@ keyconfig_data = \
  ("3D View Tool: Paint Gpencil, Arc",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.primitive", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
  ("3D View Tool: Paint Gpencil, Box",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.primitive", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
  ("3D View Tool: Paint Gpencil, Circle",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.primitive", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
  ("3D View Tool: Paint Gpencil, Curve",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.primitive", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+   [("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
@@ -1223,24 +1223,24 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("gpencil.stroke_cutter", {"type": 'LEFTMOUSE', "value": 'PRESS'}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
  ("3D View Tool: Paint Gpencil, Line",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.primitive", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("gpencil.primitive", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
  ("3D View Tool: Paint Weight, Gradient",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("paint.weight_gradient", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("paint.weight_gradient", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
@@ -1261,21 +1261,21 @@ keyconfig_data = \
  ("3D View Tool: Pose, Breakdowner",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("pose.breakdown", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("pose.breakdown", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
  ("3D View Tool: Pose, Push",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("pose.push", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("pose.push", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
  ("3D View Tool: Pose, Relax",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("pose.relax", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("pose.relax", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
@@ -1289,23 +1289,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1324,23 +1324,23 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1386,23 +1386,23 @@ keyconfig_data = \
  ("3D View Tool: Sculpt Gpencil, Select Box",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("gpencil.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1443,23 +1443,23 @@ keyconfig_data = \
  ("3D View Tool: Sculpt Gpencil, Select Lasso",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("gpencil.select_lasso", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gpencil.select_lasso", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("gpencil.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1472,14 +1472,14 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("paint.hide_show",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("action", 'HIDE'),
        ],
       },
      ),
     ("paint.hide_show",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("action", 'SHOW'),
        ],
@@ -1500,14 +1500,14 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
@@ -1520,14 +1520,14 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("paint.mask_lasso_gesture",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("value", 1.0),
        ],
       },
      ),
     ("paint.mask_lasso_gesture",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("value", 0.0),
        ],
@@ -1546,23 +1546,23 @@ keyconfig_data = \
  ("3D View Tool: Select Box",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1603,23 +1603,23 @@ keyconfig_data = \
  ("3D View Tool: Select Lasso",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.select_lasso", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("view3d.select_lasso", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1632,23 +1632,23 @@ keyconfig_data = \
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
    [("transform.from_gizmo", {"type": 'LEFTMOUSE', "value": 'ANY', "shift": True}, None),
-    ("view3d.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("view3d.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("view3d.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True},
      {"properties":
       [("mode", 'AND'),
        ],
@@ -1721,7 +1721,7 @@ keyconfig_data = \
       },
      ),
     ("anim.channels_select_box", {"type": 'B', "value": 'PRESS', "repeat": True}, None),
-    ("anim.channels_select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("anim.channels_select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("anim.channels_delete", {"type": 'BACK_SPACE', "value": 'PRESS', "repeat": True}, None),
     ("anim.channels_delete", {"type": 'DEL', "value": 'PRESS', "repeat": True}, None),
     ("anim.channels_setting_toggle", {"type": 'W', "value": 'PRESS', "shift": True, "repeat": True}, None),
@@ -2310,7 +2310,7 @@ keyconfig_data = \
       },
      ),
     ("transform.translate", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.resize", {"type": 'R', "value": 'PRESS', "repeat": True}, None),
     ("transform.rotate", {"type": 'E', "value": 'PRESS', "repeat": True}, None),
     ("clip.clear_track_path",
@@ -2423,7 +2423,7 @@ keyconfig_data = \
       },
      ),
     ("transform.translate", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.resize", {"type": 'R', "value": 'PRESS', "repeat": True}, None),
     ("transform.rotate", {"type": 'E', "value": 'PRESS', "repeat": True}, None),
     ],
@@ -2926,7 +2926,7 @@ keyconfig_data = \
       },
      ),
     ("action.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("axis_range", False),
        ("wait_for_input", False),
@@ -2936,7 +2936,7 @@ keyconfig_data = \
       },
      ),
     ("action.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("axis_range", False),
        ("wait_for_input", False),
@@ -2946,7 +2946,7 @@ keyconfig_data = \
       },
      ),
     ("action.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("axis_range", False),
        ("wait_for_input", False),
@@ -3048,14 +3048,14 @@ keyconfig_data = \
       },
      ),
     ("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'TIME_TRANSLATE'),
        ],
       },
      ),
     ("transform.transform",
-     {"type": 'EVT_TWEAK_M', "value": 'ANY'},
+     {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'TIME_TRANSLATE'),
        ],
@@ -3416,9 +3416,9 @@ keyconfig_data = \
     ("file.next", {"type": 'BUTTON5MOUSE', "value": 'CLICK'}, None),
     ("file.select_all", {"type": 'A', "value": 'PRESS', "ctrl": True, "repeat": True}, None),
     ("file.select_box", {"type": 'Q', "value": 'PRESS', "repeat": True}, None),
-    ("file.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("file.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("file.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
@@ -3679,14 +3679,14 @@ keyconfig_data = \
     ("font.change_spacing",
      {"type": 'LEFT_ARROW', "value": 'PRESS', "alt": True, "repeat": True},
      {"properties":
-      [("delta", -1),
+      [("delta", -1.0),
        ],
       },
      ),
     ("font.change_spacing",
      {"type": 'RIGHT_ARROW', "value": 'PRESS', "alt": True, "repeat": True},
      {"properties":
-      [("delta", 1),
+      [("delta", 1.0),
        ],
       },
      ),
@@ -3761,21 +3761,21 @@ keyconfig_data = \
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
    [("gizmogroup.gizmo_tweak", {"type": 'LEFTMOUSE', "value": 'CLICK'}, None),
-    ("gizmogroup.gizmo_tweak", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("gizmogroup.gizmo_tweak", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
  ("Generic Gizmo Drag",
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
-   [("gizmogroup.gizmo_tweak", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gizmogroup.gizmo_tweak", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
  ("Generic Gizmo Maybe Drag",
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
-   [("gizmogroup.gizmo_tweak", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("gizmogroup.gizmo_tweak", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ],
    },
   ),
@@ -3852,7 +3852,7 @@ keyconfig_data = \
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
    [("gpencil.annotate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'DRAW_STRAIGHT'),
        ("wait_for_input", False),
@@ -4101,7 +4101,7 @@ keyconfig_data = \
       },
      ),
     ("graph.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("axis_range", False),
        ("include_handles", False),
@@ -4111,7 +4111,7 @@ keyconfig_data = \
       },
      ),
     ("graph.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("axis_range", False),
        ("include_handles", False),
@@ -4121,7 +4121,7 @@ keyconfig_data = \
       },
      ),
     ("graph.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("axis_range", False),
        ("include_handles", False),
@@ -4172,8 +4172,8 @@ keyconfig_data = \
     ("graph.view_frame", {"type": 'A', "value": 'PRESS', "shift": True, "repeat": True}, None),
     ("anim.channels_editable_toggle", {"type": 'LEFTMOUSE', "value": 'DOUBLE_CLICK'}, None),
     ("transform.translate", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_M', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("transform.translate", {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.transform",
      {"type": 'Y', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -4417,7 +4417,7 @@ keyconfig_data = \
      ),
     ("gpencil.layer_isolate", {"type": 'NUMPAD_ASTERIX', "value": 'PRESS', "repeat": True}, None),
     ("gpencil.move_to_layer", {"type": 'G', "value": 'PRESS', "repeat": True}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("wm.context_toggle",
      {"type": 'B', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -4605,7 +4605,7 @@ keyconfig_data = \
       },
      ),
     ("gpencil.select_box", {"type": 'B', "value": 'PRESS', "repeat": True}, None),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
@@ -4645,7 +4645,7 @@ keyconfig_data = \
        ],
       },
      ),
-    ("gpencil.select_lasso", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True}, None),
+    ("gpencil.select_lasso", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True}, None),
     ],
    },
   ),
@@ -5037,7 +5037,7 @@ keyconfig_data = \
   {"items":
    [("uv.cursor_set", {"type": 'LEFTMOUSE', "value": 'PRESS'}, None),
     ("transform.translate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("cursor_transform", True),
        ("release_confirm", True),
@@ -5051,7 +5051,7 @@ keyconfig_data = \
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
    [("transform.translate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -5064,7 +5064,7 @@ keyconfig_data = \
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
    [("transform.rotate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -5077,7 +5077,7 @@ keyconfig_data = \
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
    [("transform.resize",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -5165,16 +5165,16 @@ keyconfig_data = \
  ("Image Editor Tool: Uv, Select Box",
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
-   [("uv.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("uv.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("uv.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("uv.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
@@ -5215,16 +5215,16 @@ keyconfig_data = \
  ("Image Editor Tool: Uv, Select Lasso",
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
-   [("uv.select_lasso", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+   [("uv.select_lasso", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("uv.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("uv.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ],
@@ -5468,7 +5468,7 @@ keyconfig_data = \
       },
      ),
     ("info.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("wait_for_input", False),
        ],
@@ -5627,7 +5627,7 @@ keyconfig_data = \
   {"items":
    [("wm.search_menu", {"type": 'TAB', "value": 'PRESS', "repeat": True}, None),
     ("marker.add", {"type": 'M', "value": 'PRESS', "repeat": True}, None),
-    ("marker.move", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("marker.move", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("marker.duplicate", {"type": 'D', "value": 'PRESS', "ctrl": True, "repeat": True}, None),
     ("marker.select", {"type": 'LEFTMOUSE', "value": 'PRESS'}, None),
     ("marker.select",
@@ -5746,14 +5746,14 @@ keyconfig_data = \
     ("mask.select_box", {"type": 'Q', "value": 'PRESS', "repeat": True}, None),
     ("mask.select_circle", {"type": 'C', "value": 'PRESS', "repeat": True}, None),
     ("mask.select_lasso",
-     {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True, "alt": True},
+     {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("mask.select_lasso",
-     {"type": 'EVT_TWEAK_R', "value": 'ANY', "shift": True, "ctrl": True, "alt": True},
+     {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True, "alt": True},
      {"properties":
       [("mode", 'SUB'),
        ],
@@ -5803,7 +5803,14 @@ keyconfig_data = \
  ("Mesh",
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
-   [("mesh.loop_select",
+   [("wm.call_menu",
+     {"type": 'C', "value": 'PRESS', "ctrl": True},
+     {"properties":
+      [("name", 'MESH_MT_CopyFaceSettings'),
+       ],
+      },
+     ),
+    ("mesh.loop_select",
      {"type": 'LEFTMOUSE', "value": 'DOUBLE_CLICK'},
      {"properties":
       [("extend", False),
@@ -6309,7 +6316,7 @@ keyconfig_data = \
       },
      ),
     ("nla.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("tweak", True),
        ("mode", 'SET'),
@@ -6317,7 +6324,7 @@ keyconfig_data = \
       },
      ),
     ("nla.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("tweak", True),
        ("mode", 'ADD'),
@@ -6325,7 +6332,7 @@ keyconfig_data = \
       },
      ),
     ("nla.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("tweak", True),
        ("mode", 'SUB'),
@@ -6366,14 +6373,14 @@ keyconfig_data = \
       },
      ),
     ("transform.transform",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'TRANSLATION'),
        ],
       },
      ),
     ("transform.transform",
-     {"type": 'EVT_TWEAK_M', "value": 'ANY'},
+     {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'TRANSLATION'),
        ],
@@ -10261,43 +10268,43 @@ keyconfig_data = \
       },
      ),
     ("node.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("tweak", True),
        ],
       },
      ),
     ("node.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True, "alt": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True, "alt": True},
      {"properties":
       [("mode", 'ADD'),
        ],
       },
      ),
     ("node.select_lasso",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True, "ctrl": True, "alt": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True, "ctrl": True, "alt": True},
      {"properties":
       [("mode", 'SUB'),
        ],
       },
      ),
     ("node.link",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("detach", False),
        ],
       },
      ),
     ("node.link",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("detach", True),
        ],
       },
      ),
-    ("node.resize", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("node.add_reroute", {"type": 'EVT_TWEAK_R', "value": 'ANY', "shift": True}, None),
-    ("node.links_cut", {"type": 'EVT_TWEAK_R', "value": 'ANY', "ctrl": True}, None),
+    ("node.resize", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("node.add_reroute", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "shift": True}, None),
+    ("node.links_cut", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "ctrl": True}, None),
     ("node.select_link_viewer", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True, "ctrl": True}, None),
     ("node.backimage_fit", {"type": 'A', "value": 'PRESS', "alt": True, "repeat": True}, None),
     ("node.backimage_sample", {"type": 'LEFTMOUSE', "value": 'PRESS', "alt": True}, None),
@@ -10402,8 +10409,8 @@ keyconfig_data = \
     ("node.viewer_border", {"type": 'Z', "value": 'PRESS', "repeat": True}, None),
     ("node.clear_viewer_border", {"type": 'Z', "value": 'PRESS', "alt": True, "repeat": True}, None),
     ("node.translate_attach", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("node.translate_attach", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("node.translate_attach", {"type": 'EVT_TWEAK_M', "value": 'ANY'}, None),
+    ("node.translate_attach", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("node.translate_attach", {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.translate",
      {"type": 'W', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -10412,7 +10419,7 @@ keyconfig_data = \
       },
      ),
     ("transform.translate",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("release_confirm", True),
        ],
@@ -10420,8 +10427,8 @@ keyconfig_data = \
      ),
     ("transform.rotate", {"type": 'E', "value": 'PRESS', "repeat": True}, None),
     ("transform.resize", {"type": 'R', "value": 'PRESS', "repeat": True}, None),
-    ("node.move_detach_links_release", {"type": 'EVT_TWEAK_R', "value": 'ANY', "alt": True}, None),
-    ("node.move_detach_links", {"type": 'EVT_TWEAK_L', "value": 'ANY', "alt": True}, None),
+    ("node.move_detach_links_release", {"type": 'RIGHTMOUSE', "value": 'CLICK_DRAG', "alt": True}, None),
+    ("node.move_detach_links", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "alt": True}, None),
     ("wm.context_toggle",
      {"type": 'X', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -10479,14 +10486,14 @@ keyconfig_data = \
   {"space_type": 'NODE_EDITOR', "region_type": 'WINDOW'},
   {"items":
    [("node.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("tweak", True),
        ],
       },
      ),
     ("node.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("tweak", True),
        ("mode", 'ADD'),
@@ -10494,7 +10501,7 @@ keyconfig_data = \
       },
      ),
     ("node.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("tweak", True),
        ("mode", 'SUB'),
@@ -10565,7 +10572,14 @@ keyconfig_data = \
  ("Object Mode",
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
-   [("object.delete_custom", {"type": 'DEL', "value": 'PRESS', "shift": True, "repeat": True}, None),
+   [("wm.call_menu",
+     {"type": 'C', "value": 'PRESS', "ctrl": True},
+     {"properties":
+      [("name", 'VIEW3D_MT_copypopup'),
+       ],
+      },
+     ),
+    ("object.delete_custom", {"type": 'DEL', "value": 'PRESS', "shift": True, "repeat": True}, None),
     ("object.delete_custom", {"type": 'DEL', "value": 'PRESS', "repeat": True}, None),
     ("object.delete_custom", {"type": 'BACK_SPACE', "value": 'PRESS', "shift": True, "repeat": True}, None),
     ("object.delete_custom", {"type": 'BACK_SPACE', "value": 'PRESS', "repeat": True}, None),
@@ -10974,14 +10988,14 @@ keyconfig_data = \
      ),
     ("outliner.select_box", {"type": 'Q', "value": 'PRESS', "repeat": True}, None),
     ("outliner.item_openclose",
-     {"type": 'RIGHT_ARROW', "value": 'PRESS', "repeat": True},
+     {"type": 'LEFTMOUSE', "value": 'PRESS'},
      {"properties":
       [("all", False),
        ],
       },
      ),
     ("outliner.item_openclose",
-     {"type": 'LEFT_ARROW', "value": 'PRESS', "repeat": True},
+     {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True},
      {"properties":
       [("all", True),
        ],
@@ -10989,8 +11003,8 @@ keyconfig_data = \
      ),
     ("outliner.item_rename", {"type": 'RET', "value": 'PRESS', "repeat": True}, None),
     ("outliner.operation", {"type": 'RIGHTMOUSE', "value": 'PRESS'}, None),
-    ("outliner.item_drag_drop", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("outliner.item_drag_drop", {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True}, None),
+    ("outliner.item_drag_drop", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("outliner.item_drag_drop", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True}, None),
     ("outliner.show_hierarchy", {"type": 'A', "value": 'PRESS', "repeat": True}, None),
     ("outliner.show_active", {"type": 'NUMPAD_PERIOD', "value": 'PRESS', "repeat": True}, None),
     ("outliner.show_active", {"type": 'F', "value": 'PRESS', "repeat": True}, None),
@@ -11091,7 +11105,7 @@ keyconfig_data = \
     ("paintcurve.draw", {"type": 'RET', "value": 'PRESS', "repeat": True}, None),
     ("paintcurve.draw", {"type": 'NUMPAD_ENTER', "value": 'PRESS', "repeat": True}, None),
     ("transform.translate", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("transform.translate", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("transform.translate", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.rotate", {"type": 'E', "value": 'PRESS', "repeat": True}, None),
     ("transform.resize", {"type": 'R', "value": 'PRESS', "repeat": True}, None),
     ],
@@ -11185,7 +11199,14 @@ keyconfig_data = \
  ("Pose",
   {"space_type": 'EMPTY', "region_type": 'WINDOW'},
   {"items":
-   [("screen.frame_offset",
+   [("wm.call_menu",
+     {"type": 'C', "value": 'PRESS', "ctrl": True},
+     {"properties":
+      [("name", 'VIEW3D_MT_posecopypopup'),
+       ],
+      },
+     ),
+    ("screen.frame_offset",
      {"type": 'LEFT_ARROW', "value": 'PRESS', "repeat": True},
      {"properties":
       [("delta", -1),
@@ -12144,7 +12165,7 @@ keyconfig_data = \
     ("sequencer.select_linked", {"type": 'RIGHT_BRACKET', "value": 'PRESS', "ctrl": True, "repeat": True}, None),
     ("sequencer.select_box", {"type": 'Q', "value": 'PRESS', "repeat": True}, None),
     ("sequencer.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY'},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'},
      {"properties":
       [("mode", 'SET'),
        ("tweak", True),
@@ -12152,7 +12173,7 @@ keyconfig_data = \
       },
      ),
     ("sequencer.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "shift": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "shift": True},
      {"properties":
       [("mode", 'ADD'),
        ("tweak", True),
@@ -12160,7 +12181,7 @@ keyconfig_data = \
       },
      ),
     ("sequencer.select_box",
-     {"type": 'EVT_TWEAK_L', "value": 'ANY', "ctrl": True},
+     {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG', "ctrl": True},
      {"properties":
       [("mode", 'SUB'),
        ("tweak", True),
@@ -12178,8 +12199,8 @@ keyconfig_data = \
       },
      ),
     ("transform.seq_slide", {"type": 'W', "value": 'PRESS', "repeat": True}, None),
-    ("transform.seq_slide", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
-    ("transform.seq_slide", {"type": 'EVT_TWEAK_M', "value": 'ANY'}, None),
+    ("transform.seq_slide", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
+    ("transform.seq_slide", {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG'}, None),
     ("transform.transform",
      {"type": 'E', "value": 'PRESS', "repeat": True},
      {"properties":
@@ -12582,7 +12603,7 @@ keyconfig_data = \
     ("text.scroll_bar", {"type": 'MIDDLEMOUSE', "value": 'PRESS'}, None),
     ("text.scroll", {"type": 'MIDDLEMOUSE', "value": 'PRESS'}, None),
     ("text.scroll", {"type": 'TRACKPADPAN', "value": 'ANY'}, None),
-    ("text.selection_set", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("text.selection_set", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("text.cursor_set", {"type": 'LEFTMOUSE', "value": 'PRESS'}, None),
     ("text.selection_set", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
     ("text.scroll",
@@ -12707,13 +12728,16 @@ keyconfig_data = \
     ("PROPORTIONAL_SIZE_UP", {"type": 'WHEELDOWNMOUSE', "value": 'PRESS', "shift": True}, None),
     ("PROPORTIONAL_SIZE_DOWN", {"type": 'WHEELUPMOUSE', "value": 'PRESS', "shift": True}, None),
     ("PROPORTIONAL_SIZE", {"type": 'TRACKPADPAN', "value": 'ANY'}, None),
-    ("EDGESLIDE_EDGE_NEXT", {"type": 'WHEELDOWNMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("EDGESLIDE_PREV_NEXT", {"type": 'WHEELUPMOUSE', "value": 'PRESS', "alt": True}, None),
+    ("", {"type": 'WHEELDOWNMOUSE', "value": 'PRESS', "alt": True}, None),
+    ("", {"type": 'WHEELUPMOUSE', "value": 'PRESS', "alt": True}, None),
     ("AUTOIK_CHAIN_LEN_UP", {"type": 'PAGE_UP', "value": 'PRESS', "shift": True, "repeat": True}, None),
     ("AUTOIK_CHAIN_LEN_DOWN", {"type": 'PAGE_DOWN', "value": 'PRESS', "shift": True, "repeat": True}, None),
     ("AUTOIK_CHAIN_LEN_UP", {"type": 'WHEELDOWNMOUSE', "value": 'PRESS', "shift": True}, None),
     ("AUTOIK_CHAIN_LEN_DOWN", {"type": 'WHEELUPMOUSE', "value": 'PRESS', "shift": True}, None),
     ("INSERTOFS_TOGGLE_DIR", {"type": 'T', "value": 'PRESS', "repeat": True}, None),
+    ("VERT_EDGE_SLIDE", {"type": 'G', "value": 'PRESS', "repeat": True}, None),
+    ("TRACKBALL", {"type": 'R', "value": 'PRESS', "repeat": True}, None),
+    ("ROTATE_NORMALS", {"type": 'N', "value": 'PRESS'}, None),
     ],
    },
   ),
@@ -12745,7 +12769,7 @@ keyconfig_data = \
        ],
       },
      ),
-    ("uv.select_box", {"type": 'EVT_TWEAK_L', "value": 'ANY'}, None),
+    ("uv.select_box", {"type": 'LEFTMOUSE', "value": 'CLICK_DRAG'}, None),
     ("uv.select_loop",
      {"type": 'LEFTMOUSE', "value": 'DOUBLE_CLICK', "shift": True},
      {"properties":
